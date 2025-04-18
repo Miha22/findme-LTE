@@ -1,16 +1,15 @@
-MIT License
+Custom License Based on the MIT License
 
-Copyright (c) 2025 Den/M22
+Copyright (c) 2025 Deniel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, merge, publish, and distribute the Software for **non-commercial**
+purposes, including educational and personal use, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Commercial use of any part of the Software, including the schematic and PCB design files, is strictly prohibited without prior written permission from the copyright holder (Deniel Alekseev).
+2. The schematic and PCB designs remain the intellectual property of Deniel Alekseev. Redistribution or modification of these files for commercial gain is not permitted.
+3. All copies or substantial portions of the Software must include this copyright notice and permission notice.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

@@ -1,0 +1,457 @@
+(footprint "LCC-40_16.0x18.0x1.40mm_pad01x28mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Quad-Band GSM/GPRS module, 17.6x15.7x2.3mm, http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf")
+	(tags "GSM Module SIM800C")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1164e9d-f40d-48ee-9f1e-2a6adc0831b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LCC-40_16.0x18.0x1.40mm_pad01x28mm"
+		(at 0 11 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2a8faad-0a63-4ced-9fdd-6b22444616a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -9.01 -8.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5f8002d-3944-4c15-a206-e573fb7b0f95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -9.01 -8.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1527331-eabe-4113-863e-a835725c702f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.01 -8.01)
+		(end 9.01 8.01)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "babe15ac-afa7-4e97-9517-dfa010f55675")
+	)
+	(fp_rect
+		(start -11.01 -10.01)
+		(end 11.01 10.01)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6d409af5-3f00-44ba-a232-40f490841922")
+	)
+	(pad "1" smd roundrect
+		(at -9.01 -6.3)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6d41c028-1c4f-495e-8265-fea3db3f54fc")
+	)
+	(pad "2" smd roundrect
+		(at -9.01 -4.9)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "4895a3f3-7e43-4948-9405-3d26a8c3da69")
+	)
+	(pad "3" smd roundrect
+		(at -9.01 -3.5)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0623f936-4b58-46ad-960e-1e1d68222967")
+	)
+	(pad "4" smd roundrect
+		(at -9.01 -2.1)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "647b99ba-2489-41b2-9baa-e11780b151d8")
+	)
+	(pad "5" smd roundrect
+		(at -9.01 -0.7)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "922dafd9-0ffb-4ef8-ab18-9d3f6db0b1c7")
+	)
+	(pad "6" smd roundrect
+		(at -9.01 0.7)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5473d56e-a34f-407b-8bde-e7ccf61e3f06")
+	)
+	(pad "7" smd roundrect
+		(at -9.01 2.1)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0fca4451-871e-4712-8a63-e56d331b1446")
+	)
+	(pad "8" smd roundrect
+		(at -9.01 3.5)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "edc485bc-7d3e-4d6d-ae22-e02bbad6eb9d")
+	)
+	(pad "9" smd roundrect
+		(at -9.01 4.9)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "dbb7a866-abda-465c-a9ac-f72dc773fde8")
+	)
+	(pad "10" smd roundrect
+		(at -9.01 6.3)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "835d3ae2-016c-47e2-a34a-d7edfd00a650")
+	)
+	(pad "11" smd roundrect
+		(at -6.3 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "09eb3809-b9b3-463b-a3b5-a742bdb0b32e")
+	)
+	(pad "12" smd roundrect
+		(at -4.9 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "32922fae-9f6b-4f76-8abc-714e83791d08")
+	)
+	(pad "13" smd roundrect
+		(at -3.5 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "35ee084b-b874-4187-abf3-941156a67c81")
+	)
+	(pad "14" smd roundrect
+		(at -2.1 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "37b71c94-1294-47b8-9b5c-724127fb249d")
+	)
+	(pad "15" smd roundrect
+		(at -0.7 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e65d652d-9c78-443b-b77e-d6dd24639a6a")
+	)
+	(pad "16" smd roundrect
+		(at 0.7 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "689a44e4-152b-4f01-9d20-20b739115739")
+	)
+	(pad "17" smd roundrect
+		(at 2.1 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6ba01b71-56fd-4587-9991-e2c2955aaadf")
+	)
+	(pad "18" smd roundrect
+		(at 3.5 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "10592ae5-1e48-41ab-87fa-a4a85d91c596")
+	)
+	(pad "19" smd roundrect
+		(at 4.9 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1c55d63f-b08d-487a-8501-0a246f4e3c89")
+	)
+	(pad "20" smd roundrect
+		(at 6.3 8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c8810562-38a8-46d8-8b30-e6b85c1e302b")
+	)
+	(pad "21" smd roundrect
+		(at 9.01 6.3)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "757f4c0b-c38c-4f09-8a54-1ce33e5b4c6b")
+	)
+	(pad "22" smd roundrect
+		(at 9.01 4.9)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "33dd2425-fc5c-4641-9d65-4b23230f3099")
+	)
+	(pad "23" smd roundrect
+		(at 9.01 3.5)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f0abf88c-b7d8-4cce-a241-0631a39b1eee")
+	)
+	(pad "24" smd roundrect
+		(at 9.01 2.1)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fb7d7c0a-7847-4ba0-bb91-ccdb8483183c")
+	)
+	(pad "25" smd roundrect
+		(at 9.01 0.7)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "07991a7c-5180-41d1-891d-25d78fbfded5")
+	)
+	(pad "26" smd roundrect
+		(at 9.01 -0.7)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e30d58b3-54fc-43f4-bafd-7feb2debbdba")
+	)
+	(pad "27" smd roundrect
+		(at 9.01 -2.1)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e10d4580-6235-4eec-b8bc-cbdb7d7f8a53")
+	)
+	(pad "28" smd roundrect
+		(at 9.01 -3.5)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a3863e9e-52ff-4ef2-9a16-8815f5be9e7b")
+	)
+	(pad "29" smd roundrect
+		(at 9.01 -4.9)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7c18da48-4d9f-45b1-8a5a-1dd069793cc5")
+	)
+	(pad "30" smd roundrect
+		(at 9.01 -6.3)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "b8e4333f-68f2-4457-b8b9-85f4046a2b71")
+	)
+	(pad "31" smd roundrect
+		(at 6.3 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d763588a-164f-4271-b2ea-c54b8c871680")
+	)
+	(pad "32" smd roundrect
+		(at 4.9 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "bba636f4-84cf-4eaf-a46a-229e7603356c")
+	)
+	(pad "33" smd roundrect
+		(at 3.5 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "3eefd46d-9053-486e-acb8-b8f625309bd1")
+	)
+	(pad "34" smd roundrect
+		(at 2.1 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0d9e873a-7170-4cb9-b208-cba0c36835dd")
+	)
+	(pad "35" smd roundrect
+		(at 0.7 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "b5674061-1310-4b4a-844f-61e088b9be32")
+	)
+	(pad "36" smd roundrect
+		(at -0.7 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "48b5ff0d-c123-4cbf-9627-7d0348296a9f")
+	)
+	(pad "37" smd roundrect
+		(at -2.1 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1e598fd6-e4ce-4ecf-862e-d64f18a0a4da")
+	)
+	(pad "38" smd roundrect
+		(at -3.5 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "b1970dbf-7bab-40e4-b506-1058c6e97975")
+	)
+	(pad "39" smd roundrect
+		(at -4.9 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6b614dc9-7af8-4f31-9e69-857911511f44")
+	)
+	(pad "40" smd roundrect
+		(at -6.3 -8.01 90)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "48bb7ed2-8013-4efa-bcee-386b25a3779a")
+	)
+	(group ""
+		(uuid "b93458b7-55a8-47ba-875d-062fb0582f39")
+		(members "1aca8e39-0e49-4d49-bfbd-19bdf1342987" "4d3cbfec-69fa-4e3c-b4a6-2bd9c45c0bdc"
+			"abcd2855-014c-4664-b326-fb804a66c11c" "babe15ac-afa7-4e97-9517-dfa010f55675"
+			"d2714f7f-84ca-4b68-847c-7463dc0dafed" "f1527331-eabe-4113-863e-a835725c702f"
+			"f5f8002d-3944-4c15-a206-e573fb7b0f95"
+		)
+	)
+	(group ""
+		(uuid "1aca8e39-0e49-4d49-bfbd-19bdf1342987")
+		(members "07991a7c-5180-41d1-891d-25d78fbfded5" "33dd2425-fc5c-4641-9d65-4b23230f3099"
+			"757f4c0b-c38c-4f09-8a54-1ce33e5b4c6b" "7c18da48-4d9f-45b1-8a5a-1dd069793cc5"
+			"a3863e9e-52ff-4ef2-9a16-8815f5be9e7b" "b8e4333f-68f2-4457-b8b9-85f4046a2b71"
+			"e10d4580-6235-4eec-b8bc-cbdb7d7f8a53" "e30d58b3-54fc-43f4-bafd-7feb2debbdba"
+			"f0abf88c-b7d8-4cce-a241-0631a39b1eee" "fb7d7c0a-7847-4ba0-bb91-ccdb8483183c"
+		)
+	)
+	(group ""
+		(uuid "4d3cbfec-69fa-4e3c-b4a6-2bd9c45c0bdc")
+		(members "0d9e873a-7170-4cb9-b208-cba0c36835dd" "1e598fd6-e4ce-4ecf-862e-d64f18a0a4da"
+			"3eefd46d-9053-486e-acb8-b8f625309bd1" "48b5ff0d-c123-4cbf-9627-7d0348296a9f"
+			"48bb7ed2-8013-4efa-bcee-386b25a3779a" "6b614dc9-7af8-4f31-9e69-857911511f44"
+			"b1970dbf-7bab-40e4-b506-1058c6e97975" "b5674061-1310-4b4a-844f-61e088b9be32"
+			"bba636f4-84cf-4eaf-a46a-229e7603356c" "d763588a-164f-4271-b2ea-c54b8c871680"
+		)
+	)
+	(group ""
+		(uuid "abcd2855-014c-4664-b326-fb804a66c11c")
+		(members "09eb3809-b9b3-463b-a3b5-a742bdb0b32e" "10592ae5-1e48-41ab-87fa-a4a85d91c596"
+			"1c55d63f-b08d-487a-8501-0a246f4e3c89" "32922fae-9f6b-4f76-8abc-714e83791d08"
+			"35ee084b-b874-4187-abf3-941156a67c81" "37b71c94-1294-47b8-9b5c-724127fb249d"
+			"689a44e4-152b-4f01-9d20-20b739115739" "6ba01b71-56fd-4587-9991-e2c2955aaadf"
+			"c8810562-38a8-46d8-8b30-e6b85c1e302b" "e65d652d-9c78-443b-b77e-d6dd24639a6a"
+		)
+	)
+	(group ""
+		(uuid "d2714f7f-84ca-4b68-847c-7463dc0dafed")
+		(members "0623f936-4b58-46ad-960e-1e1d68222967" "0fca4451-871e-4712-8a63-e56d331b1446"
+			"4895a3f3-7e43-4948-9405-3d26a8c3da69" "5473d56e-a34f-407b-8bde-e7ccf61e3f06"
+			"647b99ba-2489-41b2-9baa-e11780b151d8" "6d41c028-1c4f-495e-8265-fea3db3f54fc"
+			"835d3ae2-016c-47e2-a34a-d7edfd00a650" "922dafd9-0ffb-4ef8-ab18-9d3f6db0b1c7"
+			"dbb7a866-abda-465c-a9ac-f72dc773fde8" "edc485bc-7d3e-4d6d-ae22-e02bbad6eb9d"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_GSM.3dshapes/SIMCom_SIM800C.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

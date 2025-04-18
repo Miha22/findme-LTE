@@ -1,0 +1,175 @@
+(footprint "JST_ZH_S2B-ZR_1x02_P1.50mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST ZH series connector, B2B-ZR (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST ZH vertical")
+	(property "Reference" "REF**"
+		(at 0.71 -5.49 0)
+		(layer "F.SilkS")
+		(uuid "6972c2ae-f134-42dd-aa28-db6f26a4fdbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_ZH_S2B-ZR_1x02_P1.50mm_Horizontal"
+		(at 1.35 -6.85 0)
+		(layer "F.Fab")
+		(uuid "c6b0982f-8ed3-42db-90e4-90de1006a73f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ac728e5-4736-4482-bd31-15b0bff611c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f39d0339-23e0-4ade-9ead-e749c58cae9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.65 -1.08)
+		(end -1.65 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0031df6a-c686-4ff0-8c05-2e89a2f8760a")
+	)
+	(fp_line
+		(start -1.65 4.6)
+		(end 3.11 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3138fd0d-b5a4-4e7e-b99f-7a076044ec10")
+	)
+	(fp_line
+		(start 3.09 -1.08)
+		(end -1.63 -1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a7f355e-8d87-452b-930c-dbaa93ef5295")
+	)
+	(fp_line
+		(start 3.11 4.6)
+		(end 3.11 -1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c83891f-0706-43f4-bf8e-ae10855ee6e1")
+	)
+	(fp_line
+		(start -2 -1.41)
+		(end -2 4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0645581-f358-45d4-8bd1-39812fe3a7cd")
+	)
+	(fp_line
+		(start -2 4.9)
+		(end 3.5 4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40ea01bf-38d1-41ea-bf74-a1c6bbe71cf9")
+	)
+	(fp_line
+		(start 3.5 -1.41)
+		(end -2 -1.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68c18430-f9fb-4982-84cc-a0959385d325")
+	)
+	(fp_line
+		(start 3.5 4.9)
+		(end 3.5 -1.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1a6ac5b-701d-40dd-96ee-35385ee3312c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.95 -8.95 0)
+		(layer "F.Fab")
+		(uuid "475ab7b5-943d-4765-b13d-f40a0d241939")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.03 1.73)
+		(drill 0.73)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.242718)
+		(uuid "340badff-f44a-42bf-b13b-4c09128ee92b")
+	)
+	(pad "2" thru_hole oval
+		(at 1.5 0)
+		(size 1.03 1.73)
+		(drill 0.73)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baf6cd67-af61-4aba-b509-c9b9f6d7bef0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

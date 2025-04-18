@@ -1,0 +1,145 @@
+(footprint "DFN1006-2L-BI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+	(tags "diode handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "d0e1b55c-bac1-45ec-b330-60ecf13e76ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN1006-2L-BI"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(uuid "823104e9-5f72-431e-87e6-754f557995bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dcdd6b1-2580-463e-bbd1-fa27f0716f95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6754b65d-a8ba-4db5-bb9d-7c3a93d6e023")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 1.45 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a34d80ca-2be7-4901-87ea-46ac8bda6a41")
+	)
+	(fp_line
+		(start -0.4 -0.4)
+		(end -0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e406f724-e6d5-443d-819e-513bfb8fdfcd")
+	)
+	(fp_line
+		(start -0.4 0.4)
+		(end 1.25 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35f7feef-6ada-43a3-831e-721ece1669f8")
+	)
+	(fp_line
+		(start 1.25 -0.4)
+		(end -0.4 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92a72c4b-0df2-4358-a76c-bfb7e05a6ddf")
+	)
+	(fp_line
+		(start 1.25 0.4)
+		(end 1.25 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5a09e9d-0e18-4265-9c3b-04558c47fcb1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "bfa3eb26-0b70-4316-b71e-ad210c6584e3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "27a15c2e-449c-4203-a420-e5bc4973c947")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "bb2e3ae6-eea5-4641-91c8-df5447618d2b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

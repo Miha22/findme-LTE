@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LTE-lib")(type "KiCad")(uri "${KIPRJMOD}/LTE-lib.pretty")(options "")(descr ""))
+  (lib (name "MN316-DBRD_bicycle_track")(type "KiCad")(uri "C:/Users/msi-i5/Documents/KiCad/9.0/projects/Simcom702X_lte_tracking.pretty")(options "")(descr ""))
+)

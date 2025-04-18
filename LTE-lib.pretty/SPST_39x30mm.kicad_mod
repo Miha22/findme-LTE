@@ -1,0 +1,125 @@
+(footprint "SPST_39x30mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, with Boss")
+	(tags "Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0.5 -8.8 0)
+		(layer "F.SilkS")
+		(uuid "06cf1c06-2223-48d4-96ed-9750929a47d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPST_39x30mm"
+		(at -0.05 -7.25 0)
+		(layer "F.Fab")
+		(uuid "cd520369-ceaa-44d7-802b-a4e946876831")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "450ca77b-7e8c-4be5-a145-f8c8dfab65bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f4343dd-59f4-450d-9464-de30af6d1e82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.95 -1.5)
+		(end 1.95 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3a1f36e6-46d8-4e3d-919a-5ee71cf5c444")
+	)
+	(fp_rect
+		(start -3.13 -1.76)
+		(end 3.15 1.84)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "39497fd7-4cee-4006-9cb3-82a3e818fa8e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d918cca-6854-49c5-9574-9fa7555b3d3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 -5.45 0)
+		(layer "F.Fab")
+		(uuid "67c919a9-fef8-48d6-a6f5-4a520449489c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 0)
+		(size 1.25 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0337d48f-7680-4787-a0eb-f82b174962f4")
+	)
+	(pad "2" smd rect
+		(at 2.25 0)
+		(size 1.25 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55312f45-0fe7-42a8-be12-9fe37adb56dd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P-B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
